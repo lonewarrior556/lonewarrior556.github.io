@@ -40,6 +40,10 @@ h6 {
   text-transform: none;
 }
 
+.pad-bottom-2px{
+  padding: 2px;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
