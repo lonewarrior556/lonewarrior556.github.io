@@ -20,9 +20,10 @@ $(function() {
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
+
             $.ajax({
                 // url: "././mail/contact_me.php",
-                url: "http://capstone-project.heroku.com/email_from_personal_page",
+                url: "http://project.konrad-dudziak.com/email_from_personal_page",
                 type: "POST",
                 data: {
                     name: name,
