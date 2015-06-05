@@ -469,3 +469,7 @@ footer .footer-below {
   width: 230px;
   height: auto;
 }
+.screenshot-links{
+    margin: 40px;
+    font-size: 40px;
+}
