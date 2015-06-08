@@ -371,7 +371,20 @@
                               <img class="screenshots" src="img/portfolio/screenshots/NYSE3.png" alt="" />
                               <img class="screenshots" src="img/portfolio/screenshots/NYSE6.png" alt="" />
                             </p>
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>
+                              NYC StackExchange is a clone of StackOverflow built on Rails and Backbone.
+                              Users can signup for accounts or sign in with Google, choose their profile pictures, and
+                              post NYC related Questions or Answers. The questions can contain supporting
+                              information including images or links. <br>
+                              All user/question/response date is accessed and stored using PostgreSQL.
+                            </p>
+                            <p>
+                              Before the user logges in all the sites information is accessible via erb built static pages on the Rails server.
+                            <br>
+                              Once a user logs in, the whole app is rendered with Backbone, and updated with ajax calls to the rails server that then returns JSON.
+                            <br>
+                              App is made interactive with jQuery and CSS
+                            </p>
                             <ul class="list-inline item-details">
 
                                 <li>Date:
@@ -452,10 +465,25 @@
                             </p>
                             <p>
                               <img class="screenshots" src="img/portfolio/screenshots/chess_game1.png" alt="" />
-                              <img class="screenshots" src="img/portfolio/screenshots/chess_game2.png" alt="" />
                               <img class="screenshots" src="img/portfolio/screenshots/chess_game3.png" alt="" />
+                              <img class="screenshots" src="img/portfolio/screenshots/chess_game2.png" alt="" />
                             </p>
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <p>
+                              A simple command line version of chess written in Python:
+                              <br>
+                              To play simply clone the repositiory from the github link above.
+                              You will automatically be askes if you would like to load a saved game,
+                              to save an active game type "save" or type "exit" to exit.
+                              <br>
+                              The game "board" is an object that keeps track of each piece positions in a one dimensional array,
+                              every piece is an object that inherits from a "prototype" piece based on shared ability.
+                            </p>
+                                <ul>
+                                <li> Allows game saving and loading using Python's pickle </li>
+                                <li> Keeps a game log in algebraic notation</li>
+                                <li> Soon to come: Network Play </li>
+                              </ul>
+
                             <ul class="list-inline item-details">
                                 <li>Date:
                                     <strong>April 2014
