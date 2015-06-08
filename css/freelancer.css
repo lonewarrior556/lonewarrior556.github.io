@@ -473,3 +473,19 @@ footer .footer-below {
     margin: 40px;
     font-size: 40px;
 }
+.project-euler img{
+  margin: auto;
+  display:block;
+  margin-top: 30px;
+  margin-bottom: -30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  position: relative;
+  left: -5px;
+}
+
+.project-euler img:hover{
+  color: #f00;
+  -webkit-filter: invert(100%);
+  transition: .75s;
+}
