@@ -489,3 +489,7 @@ footer .footer-below {
   -webkit-filter: invert(100%);
   transition: .75s;
 }
+
+.resume-top-bar{
+  position: absolute !important;
+}
